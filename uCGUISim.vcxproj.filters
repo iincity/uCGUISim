@@ -10,9 +10,6 @@
     <Filter Include="win32\code">
       <UniqueIdentifier>{fce396ad-6047-43bb-b712-666d52f41aed}</UniqueIdentifier>
     </Filter>
-    <Filter Include="win32\lib">
-      <UniqueIdentifier>{b302dc90-97e4-426f-b7ca-ad075ac6a38a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="uCGUI">
       <UniqueIdentifier>{790a2274-8526-4787-a240-7cfe009ade3f}</UniqueIdentifier>
     </Filter>
@@ -2525,11 +2522,6 @@
     <None Include="win32\resource\Branding.rh">
       <Filter>win32\resource</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="win32\lib\GUISim.lib">
-      <Filter>win32\lib</Filter>
-    </Library>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="win32\resource\Simulation.rc">

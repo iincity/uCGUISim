@@ -248,7 +248,7 @@ char* LCDSIM_Init(void) {
             hMap    = CreateFileMapping((HANDLE)0xffffffff, NULL, PAGE_READWRITE, 0, sizeofSMem, ac);
             pSMem   = (U8*)MapViewOfFile(hMap, FILE_MAP_WRITE | FILE_MAP_READ, 0, 0, sizeofSMem);
             if (!pSMem) {
-        return "Could not alloc Server data ...";
+                  return "Could not alloc Server data ...";
             }
       _apFix[i]      = pSMem;
       _apaaPixel[i]  = pSMem+4096;
